@@ -1,6 +1,7 @@
-﻿namespace Events.Views
+﻿
+namespace Events.Views
 {
-    partial class MainView
+    partial class SubView
     {
         /// <summary>
         /// Required designer variable.
@@ -33,20 +34,21 @@
             // 
             // TbText
             // 
-            this.TbText.Location = new System.Drawing.Point(2, 50);
+            this.TbText.BackColor = System.Drawing.SystemColors.ScrollBar;
+            this.TbText.Location = new System.Drawing.Point(12, 52);
             this.TbText.Multiline = true;
             this.TbText.Name = "TbText";
-            this.TbText.Size = new System.Drawing.Size(612, 493);
+            this.TbText.Size = new System.Drawing.Size(776, 395);
             this.TbText.TabIndex = 0;
             // 
-            // MainView
+            // Subview
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(616, 546);
+            this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.TbText);
-            this.Name = "MainView";
-            this.Text = "Mainview   ";
+            this.Name = "Subview";
+            this.Text = "Subview";
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -57,4 +59,3 @@
         private System.Windows.Forms.TextBox TbText;
     }
 }
-
